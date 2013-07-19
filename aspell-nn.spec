@@ -8,12 +8,12 @@
 
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
-Version:	0.50.1
-Release:	13
+Version:	0.50.1.1
+Release:	1
 Group:		System/Internationalization
 Url:		http://aspell.net/
 License:	GPLv2
-Source0:	http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell-%{languagecode}-%{src_ver}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/nn/aspell-nn-0.50.1-1.tar.bz2
 
 BuildRequires:	aspell >= 0.50
 Requires:	aspell >= 0.50
@@ -45,4 +45,5 @@ chmod 644 Copyright README* doc/*
 %files
 %doc README* Copyright doc/*
 %{_libdir}/aspell-*/*
+
 
