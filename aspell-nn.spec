@@ -8,7 +8,7 @@
 
 Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
-Version:	0.50.1
+Version:	0.50.1.1
 Release:	22
 Group:		System/Internationalization
 Url:		http://aspell.net/
